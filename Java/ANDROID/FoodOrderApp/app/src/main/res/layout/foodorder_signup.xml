@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account in 30s"
+        android:layout_marginVertical="30dp"
+        android:textSize="30sp"
+        android:textColor="@color/blue_black"
+        android:fontFamily="@font/mercy"
+        android:paddingHorizontal="20sp"
+        />
+
+    <EditText
+        android:layout_width="@dimen/EditViewWidth"
+        android:layout_height="@dimen/EditViewHeight"
+        android:textSize="@dimen/EditTextSize"
+        android:layout_gravity="center"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:fontFamily="@font/copse"
+        android:layout_marginVertical="20dp"
+        />
+
+    <EditText
+        android:layout_width="@dimen/EditViewWidth"
+        android:layout_height="@dimen/EditViewHeight"
+        android:textSize="@dimen/EditTextSize"
+        android:layout_gravity="center"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:fontFamily="@font/copse"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:layout_width="@dimen/EditViewWidth"
+        android:layout_height="@dimen/EditViewHeight"
+        android:textSize="@dimen/EditTextSize"
+        android:layout_gravity="center"
+        android:id="@+id/cPassword"
+        android:hint="Confirm Password"
+        android:fontFamily="@font/copse"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:layout_width="@dimen/EditViewWidth"
+        android:layout_height="@dimen/EditViewHeight"
+        android:textSize="@dimen/EditTextSize"
+        android:layout_gravity="center"
+        android:id="@+id/phone"
+        android:hint="Phone Number"
+        android:fontFamily="@font/copse"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/acme"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:textAllCaps="false"
+        android:background="@color/blue_black"
+        android:id="@+id/login"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="myBackground">#C40288D1</color>
+    <color name="buttonBack">#92F6FFEE</color>
+    <color name="white">#FFF</color>
+    <color name="blue">#107BE2</color>
+    <color name="green">#05A70B</color>
+    <color name="black">#000</color>
+    <color name="yellow">#FF0</color>
+    <color name="red">#C90C0C</color>
+    <color name="calcGround">#92F6FFEE</color>
+    <color name="lightViolet">#E996AEEB</color>
+</resources>

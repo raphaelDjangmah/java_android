@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodorderapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FoodOrder.OrderIntro" />
+        <activity
+            android:name=".FoodOrder.Order_signup"
+            android:label="Create an SnC account" />
+        <activity
+            android:name=".FoodOrder.Order_mainDropdown"
+            android:label="SnC Food Shopping">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Foods.Food_fufu"
+            android:label="Order Your Favourite" />
+        <activity
+            android:name=".Food_supplements.Food_chosed_gallery"
+            android:label="Order Your Favourite Food" />
+        <activity
+            android:name=".Food_supplements.SelectedFood"
+            android:label="Make Your Order Now" />
+        <activity android:name=".others.RateApplication"
+            android:label="Rate Our Service">
+
+        </activity>
+
+        <activity android:name=".FoodOrder.SpecialOrder"
+            android:label="@string/app_name" />
+
+    </application>
+
+</manifest>

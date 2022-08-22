@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SnC Food Order</string>
+    <string name="grid_layout_compliment">
+        NEXT MONTH April, \nWe Will Provide You With The
+        exclusive chance of specifying the content of
+        your order including salt, fish/meat, soup etc....
+        \nHooossshh it\'s gonna be lite.
+    </string>
+    <string name="make_special_order">Make special Order</string>
+    <string name="more_orders">
+        Hello Cherished customer, We are currently working on this feature and it will fully be launched in
+        25th April,2020. \nThank You and we are glad to serve You.
+
+    </string>
+</resources>
